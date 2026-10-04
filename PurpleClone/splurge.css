@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: auto;
+}
+#nav1{
+    height: 35px;
+    width: 1534px;
+    /* border: 1px solid gainsboro; */
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+#nav1>ul{
+    display:flex;
+    list-style:None;
+    position:relative;
+    top: 10px;
+    left:1150px;
+    gap:15px;
+    font-size: 10px;
+    color: black;
+    
+}
+#nav1>ul>li:hover{
+    color:purple;
+}
+#navbar{
+    height: 50px;
+    width: 1534px;
+    border: 2px solid gainsboro;
+    background-color: white;
+    overflow-y: hidden;
+    position:fixed;
+    top:25px;
+    z-index: 1000;
+}
+#navbar>img{
+    height: 40px;
+    width: 70px;
+    position: relative;
+    left: 140px;
+    top:5px;
+}
+#navbar>a>span>img{
+    height: 30px;
+    width: 50px;
+    position: relative;
+    left: 140px;
+    
+}
+#navbar>ul{
+    display:flex;
+    list-style:None;
+    /* justify-content: space-evenly; */
+    bottom: 30px;
+    position:relative;
+    left:350px;
+    gap: 40px;
+    overflow-y: hidden;
+    font-size: 15px;
+    font-weight: bold;
+}
+#navbar > ul > a {
+    text-decoration: none;
+}
+#navbar > ul > a:hover {
+    text-decoration: none;
+}
+#navbar>ul>li{
+    color:black;
+    cursor: pointer;
+    text-: none;
+}
+#navbar>ul>li:hover{
+    color:purple;
+}
+#navbar>ul>a>li{
+    color:black;
+    text-decoration: none;
+}
+#navbar>ul>li:hover{
+    color:purple;
+}
+#navbar>ul>ul{
+    display:flex;
+    list-style:None;
+    justify-content: space-end;
+    position:relative;
+    top: 5px;
+    left: 50px;
+    margin:0;
+    gap:20px;
+    
+}
+#navbar>ul>ul>a>li{
+    color:black;
+    cursor: pointer;
+}
+#navbar>ul>ul>li:hover{
+    color:purple;
+}
+#navbar>ul>ul>li{
+    color:black;
+    text-decoration: none;
+}
+#navbar>ul>li:hover{
+    color:purple;
+}
+#bestsell > #row1 {
+    display: flex;
+    gap:30px;
+    margin:0;
+    padding: 20px;
+    position:absolute;
+    top:150px;
+    left:110px;
+
+}
+
+#bestsell > #row1 > span {
+    width: 230px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+#bestsell > #row1 > span img {
+    width: 220px;
+    height: 250px;
+    /* object-fit: cover; */
+    border-radius: 20px;
+    display: block;
+}
+#bestsell > #row1 > span > #offer {
+    width: 80px;
+    height: 30px;
+
+    color: purple;
+    background-color: white;
+
+    border-radius: 30px;
+    border: 1px solid burlywood;
+
+    font-size: 10px;
+
+    position: relative;
+    bottom: 20px;
+
+    margin: 0 auto;
+    display: block;
+}
+#off{
+    font-size:22px;
+    font-weight: bolder;
+    position: relative;
+    right:20px;
+}
+#org{
+    font-size: 18px;
+    position: relative;
+    right:15px;
+    bottom: 2px;
+    color: grey;
+    text-decoration: line-through;
+}
+#per{
+    font-size: 18px;
+    position: relative;
+    right:10px;
+    color:green;
+
+}
+#bestsell>#row1>span>button{
+     width: 220px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: purple;
+    border:2px solid purple ;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.b100{
+    position:absolute;
+    top:600px;
+    left:110px;
+}
+.home{
+    position:absolute;
+    top:700px;
+    left:110px;
+}
+.skin{
+    position:absolute;
+    top:700px;
+    left:750px;
+}
+.hair{
+    position:absolute;
+    top:1180px;
+    left:110px;
+}
+.perfume{
+    position:absolute;
+    top:1180px;
+    left:750px;
+}
