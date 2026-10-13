@@ -22,7 +22,7 @@ This project is a front-end clone of the Purplle beauty and cosmetics shopping w
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
-   PurpleClon
+   https://github.com/Pava1612/purpleclone
    ```
 2. Open the project folder.
 3. Open `index.html` in your browser.
